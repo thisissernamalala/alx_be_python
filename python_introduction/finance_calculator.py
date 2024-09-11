@@ -1,5 +1,5 @@
 #calculator to calculate monthly savings
-
+#made a financial calculator that calculates monthly savings from income and expenses and a projected savings of one year
 monthly_income = int(input("Enter your monthly income:"))
 monthly_expenses = int(input("Enter your monthly expenses:"))
 
