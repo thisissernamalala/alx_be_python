@@ -28,4 +28,7 @@ else:
     reminder_message += " (time sensitivity information was invalid)."
 
 # Provide a customized reminder
-print(reminder_message)
+if time_bound == 'yes':
+    print(f"Reminder: {reminder_message}")
+else:
+   print(f"Note: {reminder_message}") 
