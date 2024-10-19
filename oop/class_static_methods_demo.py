@@ -7,7 +7,7 @@ class Calculator:
         return a + b
 
     @classmethod
-    def multiply(cls,a,b):
+    def multiply(cls, a, b):
 
         cls.a = a
         cls.b = b
